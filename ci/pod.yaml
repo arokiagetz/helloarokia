@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-arokia
+  labels:
+    app: hello-arokia
+    type: sampleapp
+spec:
+  containers:
+    - name: nginx-image
+      image: 
